@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "wget -O - -q https://github.com/marstool/d15/raw/main/d15.apk |pv|md5sum "
+      wget -O - -q https://github.com/marstool/d15/raw/main/d15.apk |pv|md5sum
+echo "md5sum d15.apk"
+      md5sum d15.apk
+      ls -l eaafb_20*.apk |tail -n 1
+
+echo
+echo "wget /dev/null https://github.com/marstool/d15/raw/main/d15.apk "
+
